@@ -1,0 +1,26 @@
+
+
+import java.util.*;
+
+public class PriorityQueue {
+
+    public static void main(String[] args) {
+
+        Queue<Integer> queue1 = new java.util.PriorityQueue<>();
+
+        queue1.offer(5);
+        queue1.offer(3);
+        queue1.offer(9);
+        queue1.offer(1);
+        queue1.offer(2);
+
+        while(!queue1.isEmpty()){
+            int val = queue1.poll();
+            System.out.print(val + " ");
+        }
+
+        //Priority Queue arranges the numbers in numerical order
+        //This is used mainly when we have to arrange items in lexicographical order
+
+    }
+}

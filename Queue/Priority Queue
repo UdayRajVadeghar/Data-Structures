@@ -12,6 +12,8 @@ public class PriorityQueue {
         queue1.offer(3);
         queue1.offer(9);
         queue1.offer(1);
+
+
         queue1.offer(2);
 
         while(!queue1.isEmpty()){

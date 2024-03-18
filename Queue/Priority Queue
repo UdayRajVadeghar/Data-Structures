@@ -17,6 +17,7 @@ public class PriorityQueue {
         while(!queue1.isEmpty()){
             int val = queue1.poll();
             System.out.print(val + " ");
+
         }
 
         //Priority Queue arranges the numbers in numerical order

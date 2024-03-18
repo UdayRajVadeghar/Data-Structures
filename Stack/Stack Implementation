@@ -19,6 +19,7 @@ public class StackClass {
         static Node head;
 
         public static boolean isEmpty(){
+
             if(head == null){
                 return true;
             }
